@@ -826,7 +826,7 @@ def login():
         cursor.execute(find_user,[user_log.get()])
         result= cursor.fetchall()
         user=user_log.get()
-        if user == '1234' :
+        if user == 'solomon7878' :
             messagebox.showinfo('ADMIN','ล็อกอินหน้าADMINสำเร็จ')
             adminb()
         elif result:
